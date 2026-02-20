@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* CONTAINER UTAMA */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border: 5px solid red; /* border merah seperti di gambar */
+}
+
+/* BAGIAN KIRI (LOGO) */
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    width: 550px;
+    max-width: 100%;
+}
+
+/* BAGIAN KANAN (LOGIN) */
+.right {
+    width: 50%;
+    background-color: #ff9fa0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right h1 {
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+/* INPUT */
+.input-group {
+    position: relative;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 45px 14px 20px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.icon {
+    position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* BUTTON */
+.login-btn {
+    margin-top: 25px;
+    padding: 12px 45px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* LINKS */
+.links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.links a {
+    text-decoration: none;
+    color: blue;
+}
+
+.links span {
+    margin: 0 10px;
+}
